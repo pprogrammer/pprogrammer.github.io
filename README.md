@@ -1,4 +1,4 @@
-<img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/27b/189/0769e3d.jpg" />
+![Minha Foto](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiVAAAAJDUzYzk1NTJmLWQ0ZGYtNDdjNC1iY2YxLWViMzZlNWMzMWM0OA.jpg  "Minha Foto")
 
 ## Paulo Roberto Alves Pereira
 
