@@ -2,21 +2,23 @@
 
 ## Paulo Roberto Alves Pereira
 
-Local: Maringá - Paraná | Idade: 41 anos
+Local: Maringá - Paraná | Idade: 42 anos
 
 e-mail: [rappaulo@gmail.com](rappaulo@gmail.com)
 
-LinkedIn: [pprogrammer](http://www.linkedin.com/in/pprogrammer "pprogrammer no LinkedIn")
+Site: [http://www.pprogrammer.com.br](http://www.pprogrammer.com.br "Meu site pessoal")
 
-GitHub: [pprogrammer](https://github.com/pprogrammer "pprogrammer no GitHub")
+LinkedIn: [http://www.linkedin.com/in/pprogrammer](http://www.linkedin.com/in/pprogrammer "pprogrammer no LinkedIn")
+
+GitHub: [https://github.com/pprogrammer](https://github.com/pprogrammer "pprogrammer no GitHub")
 
 Twitter: [@pprogrammer](http://twitter.com/pprogrammer "pprogrammer no Twitter")
 
 Instagram: [pprogrammer](http://instagram.com/pprogrammer "pprogrammer no Instagram")
 
-Trello: [pprogrammer](https://trello.com/pprogrammer)
+Trello: [https://trello.com/pprogrammer](https://trello.com/pprogrammer)
 
-Blog: [pprogrammer](http://www.pprogrammer.com.br/blog "Meu blog pessoal")
+Blog: [https://programmerblogging.wordpress.com/](https://programmerblogging.wordpress.com/ "Meu blog pessoal - Refatorando ideias e Hackeando a vida")
 
 
 
@@ -32,7 +34,7 @@ Blog: [pprogrammer](http://www.pprogrammer.com.br/blog "Meu blog pessoal")
 
 
 ## Atividades Profissionais
-*  Programador Desktop/Mobile no Grupo Prever em Maringá-PR. (janeiro/2012 - atualmente):
+*  Programador Desktop/Mobile no Grupo Prever em Maringá-PR. (Janeiro/2012 - atualmente):
 	- Delphi/SQL Server, Pascal (Palm OS), Java (Android), C# (para integração NFS-e), WEB (PHP, HTML 5, CSS, Bootstrap) para integração com mobile e liberação de consultas para empresas conveniadas.
 	- PostgreSQL (integração com sistemas de terceiros)
 
@@ -54,12 +56,12 @@ Blog: [pprogrammer](http://www.pprogrammer.com.br/blog "Meu blog pessoal")
 
 
 
-*  Desenvolvedor de ERP na KODILAR em São José do Rio Preto-SP/São Paulo-SP (2005 - 2010):
+*  Analista/Desenvolvedor de ERP na KODILAR em São José do Rio Preto-SP/São Paulo-SP (2005 - 2010):
 	- Delphi, Firebird e Linux. Automação da Força de Vendas com Apps para Palm OS integrado ao sistema de retaguarda.
 
 
 
-*  Desenvolvedor de ERP na Bionatus em São José do Rio Preto-SP/São Paulo-SP (1999 - 2009):
+*  Analista/Desenvolvedor de ERP na Bionatus em São José do Rio Preto-SP/São Paulo-SP (1999 - 2009):
 	- Delphi, Firebird, SQL Server, PHP (Inserção de pedidos através de smartphones Symbiam).
 
 
@@ -105,7 +107,7 @@ para:
 
 
 *  Experiência em:
-	- Utilização das IDEs Delphi / RAD Studio, Eclipse, Android Studio, MS Visual Studio, PyCharm e com os editores Notepad++, Vim, Atom, dentre outros.
+	- Utilização das IDEs Delphi / RAD Studio, Eclipse, Android Studio, MS Visual Studio, PyCharm e com os editores Notepad++, SublimeText, Atom, Vim, dentre outros.
 	- Virtualização de ambientes para desenvolvimento e testes (VMWare e VirtualBox).
 	- Experiência na integração com softwares de Contabilidade, ERP, etc.
 	- Desenvolvimento e integração de NF-e/NFS-e, SPED, SUFRAMA e outras obrigações fiscais.

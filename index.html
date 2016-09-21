@@ -2,7 +2,7 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      <title>Currículo</title>
+      <title>README</title>
       <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); overflow: auto; background-color: rgb(40, 44, 52); }
 .markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
 .markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
@@ -147,6 +147,23 @@ pre.editor-colors .wrap-guide,
 .host .wrap-guide {
   background-color: rgba(171, 178, 191, 0.15);
 }
+pre.editor-colors .find-result .region.region.region,
+.host .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region,
+.host .current-result .region.region.region {
+  border-radius: 0px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region,
+.host .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region,
+.host .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
 pre.editor-colors .gutter .line-number,
 .host .gutter .line-number {
   color: #636d83;
@@ -190,6 +207,9 @@ pre.editor-colors .fold-marker:after,
 .comment {
   color: #5c6370;
   font-style: italic;
+}
+.comment .markup.link {
+  color: #5c6370;
 }
 .entity.name.type {
   color: #e5c07b;
@@ -353,6 +373,9 @@ pre.editor-colors .fold-marker:after,
 .meta.tag {
   color: #abb2bf;
 }
+.underline {
+  text-decoration: underline;
+}
 .none {
   color: #abb2bf;
 }
@@ -378,14 +401,17 @@ pre.editor-colors .fold-marker:after,
   color: #c678dd;
   font-style: italic;
 }
+.markup.heading {
+  color: #e06c75;
+}
 .markup.heading .punctuation.definition.heading {
   color: #61afef;
 }
+.markup.link {
+  color: #c678dd;
+}
 .markup.inserted {
   color: #98c379;
-}
-.markup.list {
-  color: #e06c75;
 }
 .markup.quote {
   color: #d19a66;
@@ -407,14 +433,11 @@ pre.editor-colors .fold-marker:after,
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
 }
-.source.gfm .markup.heading {
-  color: #e06c75;
-}
-.source.gfm .markup.link {
-  color: #c678dd;
-}
 .source.gfm .link .entity {
   color: #61afef;
+}
+.source.go .storage.type.string {
+  color: #c678dd;
 }
 .source.ini .keyword.other.definition.ini {
   color: #e06c75;
@@ -425,11 +448,26 @@ pre.editor-colors .fold-marker:after,
 .source.java .storage.type {
   color: #e5c07b;
 }
+.source.java .keyword.operator.instanceof {
+  color: #c678dd;
+}
 .source.java-properties .meta.key-pair {
   color: #e06c75;
 }
 .source.java-properties .meta.key-pair > .punctuation {
   color: #abb2bf;
+}
+.source.js .keyword.operator {
+  color: #56b6c2;
+}
+.source.js .keyword.operator.delete,
+.source.js .keyword.operator.in,
+.source.js .keyword.operator.of,
+.source.js .keyword.operator.instanceof,
+.source.js .keyword.operator.new,
+.source.js .keyword.operator.typeof,
+.source.js .keyword.operator.void {
+  color: #c678dd;
 }
 .source.json .meta.structure.dictionary.json > .string.quoted.json {
   color: #e06c75;
@@ -458,16 +496,17 @@ pre.editor-colors .fold-marker:after,
 }
 </style>
   </head>
-  <body class='markdown-preview'><p><img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/27b/189/0769e3d.jpg"></p>
+  <body class='markdown-preview' data-use-github-style><p><img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/27b/189/0769e3d.jpg"></p>
 <h2 id="paulo-roberto-alves-pereira">Paulo Roberto Alves Pereira</h2>
-<p>Local: Maringá - Paraná | Idade: 41 anos</p>
+<p>Local: Maringá - Paraná | Idade: 42 anos</p>
 <p>e-mail: <a href="rappaulo@gmail.com">rappaulo@gmail.com</a></p>
-<p>LinkedIn: <a href="http://www.linkedin.com/in/pprogrammer" title="pprogrammer no LinkedIn">pprogrammer</a></p>
-<p>GitHub: <a href="https://github.com/pprogrammer" title="pprogrammer no GitHub">pprogrammer</a></p>
+<p>Site: <a href="http://www.pprogrammer.com.br" title="Meu site pessoal">http://www.pprogrammer.com.br</a></p>
+<p>LinkedIn: <a href="http://www.linkedin.com/in/pprogrammer" title="pprogrammer no LinkedIn">http://www.linkedin.com/in/pprogrammer</a></p>
+<p>GitHub: <a href="https://github.com/pprogrammer" title="pprogrammer no GitHub">https://github.com/pprogrammer</a></p>
 <p>Twitter: <a href="http://twitter.com/pprogrammer" title="pprogrammer no Twitter">@pprogrammer</a></p>
 <p>Instagram: <a href="http://instagram.com/pprogrammer" title="pprogrammer no Instagram">pprogrammer</a></p>
-<p>Trello: <a href="https://trello.com/pprogrammer">pprogrammer</a></p>
-<p>Blog: <a href="http://www.pprogrammer.com.br/blog" title="Meu blog pessoal">pprogrammer</a></p>
+<p>Trello: <a href="https://trello.com/pprogrammer">https://trello.com/pprogrammer</a></p>
+<p>Blog: <a href="https://programmerblogging.wordpress.com/" title="Meu blog pessoal">https://programmerblogging.wordpress.com/</a></p>
 <h2 id="forma-o">Formação</h2>
 <ul>
 <li>Engenharia de Software pela UniCesumar, iniciado em março de 2015 (cursando).</li>
@@ -481,7 +520,7 @@ pre.editor-colors .fold-marker:after,
 </ul>
 <h2 id="atividades-profissionais">Atividades Profissionais</h2>
 <ul>
-<li>Programador Desktop/Mobile no Grupo Prever em Maringá-PR. (janeiro/2012 - atualmente):<ul>
+<li>Programador Desktop/Mobile no Grupo Prever em Maringá-PR. (Janeiro/2012 - atualmente):<ul>
 <li>Delphi/SQL Server, Pascal (Palm OS), Java (Android), C# (para integração NFS-e), WEB (PHP, HTML 5, CSS, Bootstrap) para integração com mobile e liberação de consultas para empresas conveniadas.</li>
 <li>PostgreSQL (integração com sistemas de terceiros)</li>
 </ul>
@@ -507,13 +546,13 @@ pre.editor-colors .fold-marker:after,
 </li>
 </ul>
 <ul>
-<li>Desenvolvedor de ERP na KODILAR em São José do Rio Preto-SP/São Paulo-SP (2005 - 2010):<ul>
+<li>Analista/Desenvolvedor de ERP na KODILAR em São José do Rio Preto-SP/São Paulo-SP (2005 - 2010):<ul>
 <li>Delphi, Firebird e Linux. Automação da Força de Vendas com Apps para Palm OS integrado ao sistema de retaguarda.</li>
 </ul>
 </li>
 </ul>
 <ul>
-<li>Desenvolvedor de ERP na Bionatus em São José do Rio Preto-SP/São Paulo-SP (1999 - 2009):<ul>
+<li>Analista/Desenvolvedor de ERP na Bionatus em São José do Rio Preto-SP/São Paulo-SP (1999 - 2009):<ul>
 <li>Delphi, Firebird, SQL Server, PHP (Inserção de pedidos através de smartphones Symbiam).</li>
 </ul>
 </li>
@@ -566,7 +605,7 @@ para:<ul>
 </ul>
 <ul>
 <li>Experiência em:<ul>
-<li>Utilização das IDEs Delphi / RAD Studio, Eclipse, Android Studio, MS Visual Studio, PyCharm e com os editores Notepad++, Vim, Atom, dentre outros.</li>
+<li>Utilização das IDEs Delphi / RAD Studio, Eclipse, Android Studio, MS Visual Studio, PyCharm e com os editores Notepad++, SublimeText, Atom, Vim, dentre outros.</li>
 <li>Virtualização de ambientes para desenvolvimento e testes (VMWare e VirtualBox).</li>
 <li>Experiência na integração com softwares de Contabilidade, ERP, etc.</li>
 <li>Desenvolvimento e integração de NF-e/NFS-e, SPED, SUFRAMA e outras obrigações fiscais.</li>
