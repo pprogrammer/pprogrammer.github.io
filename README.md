@@ -83,8 +83,8 @@ Blog: [https://programmerblogging.wordpress.com/](https://programmerblogging.wor
 
 ## Informações adicionais
 *  Experiência em desenvolvimento com:
-	- C/C++, Pascal / Delphi, xBase (Clipper, FoxPro, Visual FoxPro), Java, C#, VB.NET, Python, C/C++, SQL, PHP, ASP.NET, ASP, XML, HTML 5 / CSS.
-	- SQL Server, Interbase, Firebird, MySQL, PostgreSQL, SQLite. (Atualmente estudando MongoDB.)
+	- C/C++, Pascal / Delphi, xBase (Clipper, FoxPro, Visual FoxPro), Java, C#, VB.NET, Python, SQL, PHP, ASP.NET, ASP, XML, HTML 5 / CSS / Javascript.
+	- SQL Server, Interbase, Firebird, MySQL, PostgreSQL, SQLite.
 
 
 *  Também no desenvolvimento de aplicativos móveis (nativo e Web Apps)
@@ -97,11 +97,11 @@ para:
 
 
 
-*  Utilização e programação nos sistemas Windows, Linux, Unix (FreeBSD) e OS X. (Tambem dos extintos DOS, OS/2 e Novell)
+*  Utilização e programação nos sistemas Windows, Linux, Unix (FreeBSD) e OS X. (Tambem nos extintos DOS, OS/2 e Novell)
 
 
 
-*  Noções de Ruby, JavaScript, Node.js, Expressões Regulares e scripts Bash.
+*  Noções de Ruby, Node.js, Expressões Regulares e scripts Bash.
 	- Familiaridade com Twitter Bootstrap e JavaScript.
 
 
@@ -114,7 +114,7 @@ para:
 
 
 
-*  Sólida experiência prática no levantamento/validação de requisitos e desenvolvimento de software para industrias (Têxtil, Farmacêutica, Alimentos, Química, Moveleira), Saúde (Clinicas Médicas e Hospitais), Agropecuária, Educação (Escolas de Idiomas), e empresas do setor Funerário. Treinamento de equipes de desenvolvedores para adoção de novas tecnologias.
+*  Sólida experiência prática no levantamento/validação de requisitos e desenvolvimento de software para industrias (Têxtil, Farmacêutica, Alimentos, Química, Moveleira), Saúde (Clinicas Médicas e Hospitais), Agropecuária, Educação (Escolas de Idiomas), e empresas do setor Funerário. Treinamento e Mentoria de equipes de desenvolvedores para adoção de novas tecnologias.
 
 
 ---
