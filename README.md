@@ -20,7 +20,7 @@ Blog: [https://programmerblogging.wordpress.com/](https://programmerblogging.wor
 
 ## Formação
 
-* Engenharia de Software pela UniCesumar, iniciado em março de 2015 (cursando).
+* Engenharia de Software pela UniCesumar, 2015-2018 (cursando).
 
 ## Idiomas
 
