@@ -1,6 +1,6 @@
 # Paulo Roberto Alves Pereira
 
-![Minha Foto](foto-avatar.png  "Minha Foto")
+![Minha Foto](./foto-avatar.png  "Minha Foto")
 
 Local: Maringá - Paraná | Idade: 43 anos
 
