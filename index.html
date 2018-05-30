@@ -83,7 +83,7 @@
 .markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
 .markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
 .markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
-.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.0392157); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
 .markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
 .markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
 .markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
@@ -104,6 +104,10 @@
 .bracket-matcher .region {
   border-bottom: 1px dotted lime;
   position: absolute;
+}
+.line-number.bracket-matcher.bracket-matcher {
+  color: #abb2bf;
+  background-color: #3a3f4b;
 }
 
 .spell-check-misspelling .region {
@@ -161,7 +165,7 @@ pre.editor-colors .gutter .line-number {
 }
 pre.editor-colors .gutter .line-number.cursor-line {
   color: #abb2bf;
-  background-color: #2c313a;
+  background-color: #3a3f4b;
 }
 pre.editor-colors .gutter .line-number.cursor-line-no-selection {
   background-color: transparent;
@@ -349,7 +353,6 @@ pre.editor-colors .fold-marker:after {
   color: #c678dd;
 }
 .syntax--meta.syntax--separator {
-  background-color: #373b41;
   color: #abb2bf;
 }
 .syntax--meta.syntax--tag {
@@ -418,6 +421,49 @@ pre.editor-colors .fold-marker:after {
 .syntax--source.syntax--css .syntax--property-value.syntax--support {
   color: #abb2bf;
 }
+.syntax--source.syntax--elixir .syntax--source.syntax--embedded.syntax--source {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--constant.syntax--language,
+.syntax--source.syntax--elixir .syntax--constant.syntax--numeric,
+.syntax--source.syntax--elixir .syntax--constant.syntax--definition {
+  color: #61afef;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--definition,
+.syntax--source.syntax--elixir .syntax--variable.syntax--anonymous {
+  color: #c678dd;
+}
+.syntax--source.syntax--elixir .syntax--parameter.syntax--variable.syntax--function {
+  color: #d19a66;
+  font-style: italic;
+}
+.syntax--source.syntax--elixir .syntax--quoted {
+  color: #98c379;
+}
+.syntax--source.syntax--elixir .syntax--keyword.syntax--special-method,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--section,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--source.syntax--empty {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--readwrite.syntax--module .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--regexp.syntax--section,
+.syntax--source.syntax--elixir .syntax--regexp.syntax--string {
+  color: #be5046;
+}
+.syntax--source.syntax--elixir .syntax--separator,
+.syntax--source.syntax--elixir .syntax--keyword.syntax--operator {
+  color: #d19a66;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--constant {
+  color: #e5c07b;
+}
+.syntax--source.syntax--elixir .syntax--array,
+.syntax--source.syntax--elixir .syntax--scope,
+.syntax--source.syntax--elixir .syntax--section {
+  color: #828997;
+}
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
 }
@@ -476,6 +522,9 @@ pre.editor-colors .fold-marker:after {
 .syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
   color: inherit;
 }
+.syntax--source.syntax--php .syntax--class.syntax--bracket {
+  color: #abb2bf;
+}
 .syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
   color: #c678dd;
 }
@@ -485,18 +534,18 @@ pre.editor-colors .fold-marker:after {
 </style>
   </head>
   <body class='markdown-preview' data-use-github-style><h1 id="paulo-roberto-alves-pereira">Paulo Roberto Alves Pereira</h1>
-<p><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiVAAAAJDUzYzk1NTJmLWQ0ZGYtNDdjNC1iY2YxLWViMzZlNWMzMWM0OA.jpg" alt="Minha Foto" title="Minha Foto"></p>
+<p><img title="Minha Foto" alt="Minha Foto" src="C:\Projetos\mygithub\pprogrammer.github.io\foto-avatar.png"></p>
 <p>Local: Maringá - Paraná | Idade: 43 anos</p>
 <p>e-mail: <a href="rappaulo@gmail.com">rappaulo@gmail.com</a></p>
-<p>Site: <a href="http://www.pprogrammer.com.br" title="Meu site pessoal">http://www.pprogrammer.com.br</a></p>
-<p>LinkedIn: <a href="http://www.linkedin.com/in/pprogrammer" title="pprogrammer no LinkedIn">http://www.linkedin.com/in/pprogrammer</a></p>
-<p>GitHub: <a href="https://github.com/pprogrammer" title="pprogrammer no GitHub">https://github.com/pprogrammer</a></p>
-<p>Twitter: <a href="http://twitter.com/pprogrammer" title="pprogrammer no Twitter">@pprogrammer</a></p>
-<p>Instagram: <a href="http://instagram.com/pprogrammer" title="pprogrammer no Instagram">pprogrammer</a></p>
-<p>Blog: <a href="https://programmerblogging.wordpress.com/" title="Meu blog pessoal - Refatorando ideias e Hackeando a vida">https://programmerblogging.wordpress.com/</a></p>
+<p>Site: <a title="Meu site pessoal" href="http://www.pprogrammer.com.br">http://www.pprogrammer.com.br</a></p>
+<p>LinkedIn: <a title="pprogrammer no LinkedIn" href="http://www.linkedin.com/in/pprogrammer">http://www.linkedin.com/in/pprogrammer</a></p>
+<p>GitHub: <a title="pprogrammer no GitHub" href="https://github.com/pprogrammer">https://github.com/pprogrammer</a></p>
+<p>Twitter: <a title="pprogrammer no Twitter" href="http://twitter.com/pprogrammer">@pprogrammer</a></p>
+<p>Instagram: <a title="pprogrammer no Instagram" href="http://instagram.com/pprogrammer">pprogrammer</a></p>
+<p>Blog: <a title="Meu blog pessoal - Refatorando ideias e Hackeando a vida" href="https://programmerblogging.wordpress.com/">https://programmerblogging.wordpress.com/</a></p>
 <h2 id="forma-o">Formação</h2>
 <ul>
-<li>Engenharia de Software pela UniCesumar, iniciado em março de 2015 (cursando).</li>
+<li>Engenharia de Software pela UniCesumar, 2015-2018 (cursando).</li>
 </ul>
 <h2 id="idiomas">Idiomas</h2>
 <ul>
@@ -506,10 +555,10 @@ pre.editor-colors .fold-marker:after {
 <h2 id="atividades-profissionais">Atividades Profissionais</h2>
 <ul>
 <li><p>Programador no Grupo Prever em Maringá-PR. (Janeiro/2012 - atualmente):
-Sou responsável pelo desenvolvimento e manutenção do sistema mobile de cobrança (em Android nativo) e sua integração com o sistema corporativo (em Delphi e SQL Server). Também faço a manutenção em diversos sitemas do grupo e a implementação de novas funcionalidades, realizando também a análise de requisitos e todo processo de validação e acompanhamento com os usuários solicitantes. Realizei a integração de NFS-e com as prefeituras de diversas cidades onde possuimos filiais, e também a integração dos sistemas internos com sistemas de terceiros.</p>
+Sou responsável pelo desenvolvimento e manutenção do sistema mobile de cobrança (em Android nativo) e sua integração com o sistema corporativo (em Delphi e SQL Server). Também faço a manutenção em diversos sistemas do grupo e a implementação de novas funcionalidades, realizando também a análise de requisitos e todo processo de validação e acompanhamento com os usuários solicitantes. Realizei a integração de NFS-e com as prefeituras de diversas cidades onde possuímos filiais, e também a integração dos sistemas internos com sistemas de terceiros através de APIs SOAP e RESTful.</p>
 </li>
 <li><p>Analista/Desenvolvedor e Consultor externo na Gold System em São José do Rio Preto-SP (2004 - 2011):
-Atuei como analista e desenvolvedor de um aplicativo para gerenciamento de recebimento e cobrança para empresas do segmento funerário que trabalham com Planos Assistenciais (Funerários) e pagamento recorrente (mensalidades). O aplicativo era composto de uma versão desktop (que se integrava ao sistema principal para obter e atualizar dados) e uma versão mobile, inicialmente desenvolvida para Palm OS, depois para Windows Mobile e posteriormente para  Android. Desenvolvi e implantei um sistema de controle de protocolos em PDAs Palm OS (e um app desktop) para um escritório de contabilidade, auxiliando no gerenciamento do processo de entrega de documentos aos clientes do mesmo. Também atuei como consultor externo, atendendo pessoalmente diversas empresas clientes (em várias cidades e estados), auxiliando no levantamento de requisitos e definição de necessidades específicas, adaptações e ajustes nos sistemas de controle de Planos e Financeiro da Gold System. Ainda atuei na seleção e orientação de desenvolvedores para o desenvolvimento de uma versão WEB do sistema de Planos.</p>
+Atuei como analista e desenvolvedor de um aplicativo para gerenciamento de recebimento e cobrança para empresas do segmento funerário que trabalham com Planos Assistenciais (Funerários) e pagamento recorrente (mensalidades). O aplicativo era composto de uma versão desktop (que se integrava ao sistema principal para obter e atualizar dados) e uma versão mobile, inicialmente desenvolvida para Palm OS, depois para Windows Mobile e posteriormente para  Android. Desenvolvi e implantei um sistema de controle de protocolos em PDAs Palm OS (e um App desktop) para um escritório de contabilidade, auxiliando no gerenciamento do processo de entrega de documentos aos clientes do mesmo. Também atuei como consultor externo, atendendo pessoalmente diversas empresas clientes (em várias cidades e estados), auxiliando no levantamento de requisitos e definição de necessidades específicas, adaptações e ajustes nos sistemas de controle de Planos e Financeiro da Gold System. Ainda atuei na seleção e orientação de desenvolvedores para o desenvolvimento de uma versão WEB do sistema de Planos.</p>
 </li>
 <li><p>Consultor/Desenvolvedor para VCE em São José do Rio Preto-SP (2010 - 2011):
 Atuei como consultor de desenvolvimento para um sistema de gerenciamento de documentos e implantação de qualidade. O sistema foi desenvolvido em Delphi com multicamadas, tendo servidores de aplicação acessando MS SQL Server, Firebird e Oracle. Também realizei a implantação de versionamento de código utilizando Subversion e a virtualização de ambiente de testes para prospectos utilizando o VMWare Server e o treinamento dos programadores.</p>
@@ -552,6 +601,6 @@ Virtualização de ambientes para desenvolvimento e testes (VMWare e VirtualBox)
 </li>
 </ul>
 <hr>
-<p>Para mais detalhes, visualize também meu perfil no <a href="http://www.linkedin.com/in/pprogrammer" title="Paulo no LinkedIn">LinkedIn</a>.</p>
-<p><a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to=rappaulo@gmail.com" title="Enviar email">email-me</a>!    =)</p></body>
+<p>Para mais detalhes, visualize também meu perfil no <a title="Paulo no LinkedIn" href="http://www.linkedin.com/in/pprogrammer">LinkedIn</a>.</p>
+<p><a title="Enviar email" href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to=rappaulo@gmail.com">email-me</a>!    =)</p></body>
 </html>
